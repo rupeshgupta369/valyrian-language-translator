@@ -1,0 +1,171 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        /* max-width: 75%;
+    width: 75%;
+    margin: auto; */
+        background-image: url("valyriaBackgroundImg.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        background-color: white;
+    }
+
+    /* 
+body {
+    background-image: url("khaldrogo-min.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+    font-family: "Kaushan Script", cursive;
+}
+*/
+    :root {
+        --color1: #111827;
+        --color2: #ccc;
+        --color3: ;
+        --color4: ;
+        --color5: ;
+    }
+
+    #header {
+        margin: auto;
+        font-weight: 500;
+        text-align: center;
+        background-color: #111827;
+        padding: 2rem 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 5px 10px 8px rgb(231, 220, 220);
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        color: #ccc;
+    }
+
+    .dragon-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        height: 200px;
+        max-width: 500px;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    textarea {
+        margin: 1rem;
+        margin-bottom: 5rem;
+        width: 70%;
+        height: 150px;
+        padding: 1rem 2rem;
+        box-sizing: border-box;
+        border-radius: 1rem;
+        border: none;
+        font-size: 1.4rem;
+        background-color: #ccc;
+        box-shadow: 5px 10px 8px rgb(231, 220, 220);
+        outline: none;
+    }
+
+    textarea:focus {
+        background: white;
+    }
+
+    textarea:focus::placeholder {
+        color: transparent;
+    }
+
+    ::placeholder {
+        color: #111827;
+        font-size: 1.4rem;
+    }
+
+    button {
+        border-radius: 49px;
+        background: #00ffff;
+        box-shadow: 28px 28px 56px #00e0e0, -28px -28px 56px #00ffff;
+        margin: auto;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+        background-color: #111827;
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        box-shadow: 3px 5px 8px rgb(231, 220, 220);
+        border: none;
+        font-size: 1rem;
+        color: #ccc;
+        outline: none;
+    }
+
+    section>p {
+        font-size: x-large;
+        color: black;
+        font-weight: 500;
+        align-self: center;
+        margin: 1rem;
+        background-color: #ccc;
+    }
+
+    footer {
+        background-color: #111827;
+        padding: 1rem 2rem;
+        margin-top: 1rem;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 2rem;
+        box-shadow: 0px 10px 5px rgb(175, 173, 173), 0px -10px 5px #ccc;
+        color: #ccc;
+    }
+
+    footer i {
+        color: white;
+        font-size: 30px;
+        margin: 1rem;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #ccc;
+    }
+
+    .links li {
+        list-style-type: none;
+        color: #ccc;
+    }
+
+    .list-non-bullet {
+        display: inline-flex;
+        margin: auto;
+        /* width: 24%; */
+        list-style-type: none;
+    }
+
+    .link :hover {
+        color: darkblue;
+        size: 10em;
+    }
+
+    #footer-connect {
+        padding: 0;
+    }
