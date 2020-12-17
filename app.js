@@ -9,14 +9,11 @@ var input = document.querySelector("#input-text");
 var output = document.querySelector("#output-text")
 
 
-output.value = "";
+// output.value = "";
 
 
-var serverURL = "https://api.funtranslations.com/translate/dothraki.json";
+var serverURL = "https://api.funtranslations.com/translate/valyrian.json";
 
-// https: //api.funtranslations.com/translate/dothraki.json
-
-// https: //api.funtranslations.com/translate/valyrian.json
 
 function getTranslationURL(text) {
     return serverURL + "?" + "text=" + text;
